@@ -1,0 +1,16 @@
+{
+    "name": "maxwe/technical-challenge",
+    "description": "Using PHP Composer test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Maxwe\\TechnicalChallenge\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MW"
+        }
+    ],
+    "require": {}
+}
