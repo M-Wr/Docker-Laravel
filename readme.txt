@@ -1,14 +1,12 @@
-1). Clone down the repo:
+1). Clone down and cd into the repo:
   git clone https://github.com/M-Wr/Docker-Laravel.git
-
-2). Get into the repo
   cd Docker-Laravel
 
-3). Use the 'dev' branch:
+2). Use the 'dev' branch:
   git checkout dev
 
-4). Build docker image:
+3). Build docker image:
   docker build -t the_image .
 
-5). Create a container using that image
+4). Create a container using that image
   docker run -d -p 8000:8000 the_image
